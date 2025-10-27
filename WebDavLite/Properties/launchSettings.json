@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "WebDavLite": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:8080"
+      },
+      "containerRunArguments": "-p 8080:8080"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "RequireAuthentication": true,
+  "ListenPrefix": "http://\u002B:8080/",
+  "StoragePath": "./webdav-storage",
+  "UsersFile": "users.json"
+}
