@@ -8,7 +8,7 @@
       "environmentVariables": {
         "ASPNETCORE_URLS": "http://+:8080"
       },
-      "containerRunArguments": "-p 8080:8080"
+      "containerRunArguments": "-p 8080:8080 -v C:\\Temp\\webdav:/app/webdav-storage"
     }
   }
 }
